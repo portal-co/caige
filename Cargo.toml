@@ -1,0 +1,8 @@
+[workspace]
+members=[]
+resolver="3"
+
+[workspace.package]
+
+[workspace.dependencies]
+
