@@ -1,6 +1,13 @@
-class $d15f9f2b8d65930e$export$64acbd9b9b644e8c {
+class $c3f6c693698dc7cd$export$8c6ed5c666ac1360 {
+    #schema;
+    get schema() {
+        return this.#schema;
+    }
+    constructor({ schema: schema }){
+        this.#schema = schema;
+    }
 }
 
 
-export {$d15f9f2b8d65930e$export$64acbd9b9b644e8c as LLM};
+export {$c3f6c693698dc7cd$export$8c6ed5c666ac1360 as Slot};
 //# sourceMappingURL=index.js.map
