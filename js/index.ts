@@ -1,11 +1,11 @@
 import { StandardSchemaV1 } from "@standard-schema/spec"
-export class Slot<T> {
-    #schema: StandardSchemaV1<unknown, T>;
+export class Slot<T,S extends StandardSchemaV1<unknown, T>> {
+    #schema: S;
     get schema() {
         return this.#schema;
     }
 
-    constructor({ schema }: { schema: StandardSchemaV1<unknown, T> }) {
+    constructor({ schema }: { schema: S }) {
         this.#schema = schema;
     }
 }

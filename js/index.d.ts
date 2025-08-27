@@ -1,9 +1,9 @@
 import { StandardSchemaV1 } from "@standard-schema/spec";
-export class Slot<T> {
+export class Slot<T, S extends StandardSchemaV1<unknown, T>> {
     #private;
-    get schema(): StandardSchemaV1<unknown, T>;
+    get schema(): S;
     constructor({ schema }: {
-        schema: StandardSchemaV1<unknown, T>;
+        schema: S;
     });
 }
 
