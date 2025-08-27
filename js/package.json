@@ -1,0 +1,15 @@
+{
+  "name": "@portal-solutions/caige-js",
+  "version": "1.0.3",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "types": "index.d.ts",
+  "main": "index.js",
+  "source": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {}
+}
