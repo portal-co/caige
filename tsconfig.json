@@ -4,6 +4,6 @@
             "esnext"
         ],
         "target": "esnext",
-        "allowImportingTsExtensions": true,
+        "allowImportingTsExtensions": true
     }
 }
