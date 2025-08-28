@@ -27,7 +27,7 @@ export class LLMPool {
     constructor({ llm }: {
         llm: LLM;
     });
-    get naturalFunction(): ({}: NaturalFunctionArgs) => (strings: TemplateStringsArray, ...args: any[]) => Promise<string>;
+    get naturalFunction(): (arg: any) => (strings: TemplateStringsArray, ...args: any[]) => Promise<string>;
 }
 
 //# sourceMappingURL=index.d.ts.map

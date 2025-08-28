@@ -60,7 +60,7 @@ class $c3f6c693698dc7cd$export$eb5cef0563b96cdb {
         };
     }
     get naturalFunction() {
-        return this.#naturalFunction;
+        return (arg)=>this.#naturalFunction(arg);
     }
 }
 

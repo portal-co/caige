@@ -69,6 +69,6 @@ export class LLMPool {
         }
     }
     get naturalFunction() {
-        return this.#naturalFunction;
+        return arg => this.#naturalFunction(arg);
     }
 }
